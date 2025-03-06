@@ -1,0 +1,27 @@
+fastapi
+uvicorn
+aio_pika
+psycopg2-binary
+redis
+asyncpg
+sqlalchemy
+pydantic
+
+# Оптимизация работы с PostgreSQL
+psycopg[binary]
+
+# Миграции
+alembic
+
+# Логирование
+loguru
+
+# CORS (если нужен фронт)
+fastapi[all]
+
+# Работа с переменными окружения
+python-dotenv
+
+# Дополнительные утилиты
+orjson
+httpx
